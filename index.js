@@ -8,5 +8,6 @@ module.exports = {
    personaApi: require('./lib/personaApi'),
    qslpApi: require('./lib/qslpApi'),
    blockpoolApi: require('./lib/blockpoolApi'),
-   arkApi: require('./lib/arkApi')
+   arkApi: require('./lib/arkApi'),
+   darkApi: require('./lib/darkApi')
 }
