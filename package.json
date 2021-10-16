@@ -1,6 +1,6 @@
 {
   "name": "motion-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package file is for all the dependencies for Motion API Helper",
   "main": "index.js",
   "repository": {
