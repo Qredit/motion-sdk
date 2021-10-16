@@ -10,7 +10,7 @@
   "dependencies": {
     "big.js": "^5.2.2",
     "request": "^2.88.0",
-    "qreditjs": "git+https://github.com/Qredit/qredit-js.git",
+    "qreditjs": "git+https://github.com/Qredit/qredit-js.git"
   },
   "devDependencies": {},
   "scripts": {
