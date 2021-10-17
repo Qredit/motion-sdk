@@ -9,5 +9,6 @@ module.exports = {
    qslpApi: require('./lib/qslpApi'),
    blockpoolApi: require('./lib/blockpoolApi'),
    arkApi: require('./lib/arkApi'),
-   darkApi: require('./lib/darkApi')
+   darkApi: require('./lib/darkApi'),
+   radiansApi: require('./lib/radiansApi')
 }
