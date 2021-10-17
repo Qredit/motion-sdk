@@ -1,7 +1,13 @@
 ---
+v0.0.6
+- changed radians api
+- added aslp
+---
+
 v0.0.5
 
 - added radians
+
 ---
 
 v0.0.4
