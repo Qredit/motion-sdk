@@ -4,11 +4,21 @@
  */
 
 module.exports = {
-   qreditApi: require('./lib/qreditApi'),
+   /*persona*/
    personaApi: require('./lib/personaApi'),
+
+   /*qredit*/
+   qreditApi: require('./lib/qreditApi'),
    qslpApi: require('./lib/qslpApi'),
-   blockpoolApi: require('./lib/blockpoolApi'),
+
+   /*ark*/
    arkApi: require('./lib/arkApi'),
    darkApi: require('./lib/darkApi'),
+   aslpApi: require('./lib/aslpApi'),
+
+   /*blockpool*/
+   blockpoolApi: require('./lib/blockpoolApi'),
+
+   /*radians*/
    radiansApi: require('./lib/radiansApi')
 }
