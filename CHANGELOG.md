@@ -1,7 +1,14 @@
+v0.0.7
+
+- add railsbank api
+
 ---
+
 v0.0.6
+
 - changed radians api
 - added aslp
+
 ---
 
 v0.0.5

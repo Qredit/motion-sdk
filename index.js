@@ -20,5 +20,9 @@ module.exports = {
    blockpoolApi: require('./lib/blockpoolApi'),
 
    /*radians*/
-   radiansApi: require('./lib/radiansApi')
+   radiansApi: require('./lib/radiansApi'),
+
+
+   /*railsbank*/
+   railsbankApi: require('./railsbank/railsbankApi')
 }
