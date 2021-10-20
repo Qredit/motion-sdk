@@ -3,45 +3,30 @@
 */
 
 const request = require("request");
-const rp = require('request-promise');
-const Big = require('big.js');
 
 /* constant Motion API URL */
-
-function motionApi(motionApiURL) {
-    if (motioApiURL === void 0)
-        this.motionApiURL = 'https://unifiedapi.qredit.cloud/';
-    else
-        this.motionApiURL = motionApiURL;
-
-    return this;
-}
-
-
-/* constant Railbank API URL */
-
 var railsbankApi = /** @class */ (function () {
 
-    function railsbankApi(apiURL) {
-        if (apiURL === void 0)
-            this.apiURL = 'https://play.railsbank.com/v1/customer/';
-
+    /* constant Railbank API URL */
+    function railsbankApi(railsbankApiURL) {
+        if (railsbankApiURL === void 0)
+            this.railsbankApiURL = 'https://play.railsbank.com/v1/customer/';
         /*
         method: 'POST',
-        uri: `https://play.railsbank.com/v1/customer/ledgers/${ledgerId}/`,
+        uri: `https://play.railsbank.com/v1/customer/`
         headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
         'Authorization': API_KEY,
-          },
+         },
           json: true,
         */
-
         else
             this.apiURL = apiURL;
 
         return this;
     }
+
 
     railsbankApi.prototype.getApiUrl = function () {
 
@@ -66,17 +51,17 @@ var railsbankApi = /** @class */ (function () {
      */
 
     /*********************************************************************
-    
+     
       ___    _   ___ _    ___ ___   _   _  _ _  __    _   ___ ___
      | _ \  /_\ |_ _| |  / __| _ ) /_\ | \| | |/ /   /_\ | _ \_ _|
      |   / / _ \ | || |__\__ \ _ \/ _ \| .` | ' <   / _ \|  _/| |
      |_|_\/_/ \_\___|____|___/___/_/ \_\_|\_|_|\_\ /_/ \_\_| |___|
-    
-    
+     
+     
      ********************************************************************/
 
     /*
-    
+     
     1. createIBAN
     2. createLedger
     3. createUser
@@ -88,7 +73,7 @@ var railsbankApi = /** @class */ (function () {
     9. getTransaction
     10. getUser
     11. deleteUser
-    
+     
     */
 
     /* 1. createIBAN */
