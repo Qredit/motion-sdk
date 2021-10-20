@@ -10,7 +10,7 @@ var railsbankApi = /** @class */ (function () {
     /* constant Railbank API URL */
     function railsbankApi(railsbankApiURL) {
         if (railsbankApiURL === void 0)
-            this.railsbankApiURL = 'https://play.railsbank.com/v1/customer/';
+            this.railsbankApiURL = 'https://play.railsbank.com/v1/customer';
         /*
         method: 'POST',
         uri: `https://play.railsbank.com/v1/customer/`
