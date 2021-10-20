@@ -24,5 +24,5 @@ module.exports = {
 
 
    /*railsbank*/
-   railsbankApi: require('./railsbank/railsbankApi')
+   railsbankApi: require('./banking/railsbankApi')
 }
