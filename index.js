@@ -10,6 +10,7 @@ module.exports = {
    /*qredit*/
    qreditApi: require('./lib/qreditApi'),
    qslpApi: require('./lib/qslpApi'),
+   testnetQreditApi: require('./lib/testnetQreditApi'),
 
    /*ark*/
    arkApi: require('./lib/arkApi'),
