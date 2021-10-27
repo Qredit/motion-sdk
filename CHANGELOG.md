@@ -1,3 +1,9 @@
+v0.0.8
+
+- add qredit testnet api
+
+---
+
 v0.0.7
 
 - add railsbank api
