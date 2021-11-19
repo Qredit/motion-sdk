@@ -1,8 +1,8 @@
 # motion-sdk
 
-[![https://t.me/@nayiem](https://telegram.me/@nayiem)
+[![https://t.me/@nayiem]](https://telegram.me/@nayiem)
 
-A Promised NodeJS Module for connecting with the Persona v1 API
+
 
 ## Install via git
 
