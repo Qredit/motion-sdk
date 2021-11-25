@@ -16,6 +16,7 @@ module.exports = {
    arkApi: require('./lib/arkApi'),
    darkApi: require('./lib/darkApi'),
    aslpApi: require('./lib/aslpApi'),
+   dswipeApi: require('./lib/dswipeApi'),
 
    /*blockpool*/
    blockpoolApi: require('./lib/blockpoolApi'),
